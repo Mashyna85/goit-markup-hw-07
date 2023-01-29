@@ -19,14 +19,54 @@ ul {
 }
 
 .container {
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 1px solid red; */
+}
+
+@media screen and (min-width:480px) {
+  .container {
+    width: 426px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .container {
+    width: 766px;
+  }
+}
+
+@media screen and (min-width:1158) {
+  .container {
+    width: 1158px;
+  }
+}
+
+@media screen and (max-width:767px) {
+
+  .header-list,
+  .header-list-contact {
+    display: none;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .mobile-menu-burger {
+    display: none;
+  }
+}
+
+/* .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 1px solid red; */
-  margin: 0 auto;
+margin: 0 auto;
 }
 
-.list {
+*/ .list {
   list-style: none;
 }
 
@@ -34,6 +74,7 @@ ul {
   text-decoration: none;
 }
 
+/* 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -148,9 +189,10 @@ ul {
 
 .header-list-contact:hover,
 .header-list-contact {
-  color: #404bbf;
+  color: #404bbf; */
 }
 
+/* 
 
 .header-list-contac-item-one {
   font-weight: 400;
@@ -173,7 +215,7 @@ ul {
 .header-contact:hover,
 .header-contact:focus {
   color: #404bbf;
-}
+} */
 
 /* Банер з кнопкою */
 
