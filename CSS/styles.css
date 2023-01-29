@@ -58,6 +58,25 @@ ul {
   }
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.mobile-menu-burger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  fill: #2E2F42;
+}
+
 /* .container {
   width: 1158px;
   padding-left: 15px;
