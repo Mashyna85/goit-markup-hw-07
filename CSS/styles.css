@@ -28,7 +28,6 @@ ul {
 
 
 .container {
-  display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
@@ -87,6 +86,48 @@ ul {
   transition-property: border, background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-mobilelist {
+  margin-top: 20px;
+}
+
+.header-mobilelist-item {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  margin-bottom: 40px;
+}
+
+.header-mobile-contact {
+  margin-top: 226px;
+  margin-bottom: 48px;
+}
+
+.header-mobilelist-contac-item-two {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #4D5AE5;
+  margin-bottom: 40px;
+}
+
+.header-mobilelist-contac-item-one {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .list {
