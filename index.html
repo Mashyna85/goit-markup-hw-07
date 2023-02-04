@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/modern-normalize.css">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/mobile.css">
+    <link rel="stylesheet" href="./CSS/tamlet.css">
+    <link rel="stylesheet" href="./CSS/desctop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
@@ -31,7 +34,7 @@
                     <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <button class="mobile-menu-burger" type="button">
+            <button class="mobile-menu-burger" type="button" data-menu-open>
                 <svg class="mobile-mebu-burger_open" width="40" height="40">
                     <use href="./img/burger.svg#menu_btn"></use>
                 </svg>
@@ -44,9 +47,9 @@
                         111-11-11</a></li>
             </ul>
         </div>
-        <div class="mobile-menu">
+        <div class="mobile-menu is-hidden" data-menu>
            <div class="container mobile-menu-container">
-                <button class="mobile-menu-close-btn" type="button">
+                <button class="mobile-menu-close-btn" type="button" data-menu-close>
                     <svg class="mobile-menu-close-button" width="24" height="24">
                         <use href="./img/close-button.svg#icon-close-btn"></use>
                     </svg>
@@ -95,13 +98,13 @@
                     </li>
                 </ul>
            </div>
-        </div>
+        </div> -->
     </header>
 
     <!--Банер з кнопкою-->
 
     <main>
-        <!-- <section class="first-sec">
+        <section class="first-sec">
             <div class="container">
                 <h1 class="first-sec-text">Effective Solutions <br> Your Business</h1>
                 <button class="first-sec-button" type="button" data-modal-open>Order Service</button>
@@ -163,11 +166,10 @@
                 </div>
             </div>
             </div>
-        </section> -->
+        </section>
 
         <!--Інформація про переваги-->
-
-        <!-- <section class="section-our-services">
+        <section class="section-our-services">
             <div class="container">
                 <ul class="services-list list">
                     <li class="services-list-item">
@@ -193,7 +195,7 @@
                             deep passion for problem-solving.</p>
                     </li>
                 </ul>
-            </div>
+            </div> 
             <!--три фото-->
         <!-- </section> -->
         <!-- <section class="section-doing">
@@ -208,7 +210,7 @@
                                 alt="hand with phone"></a></li>
                 </ul>
             </div>
-        </section> --> -->
+        </section> -->
 
         <!--Команда-->
 
@@ -480,8 +482,8 @@
             </div>
         </div>
     </footer> -->
-    <script src="./mobile-menu.js"></script>
     <script src="./modal.js"></script>
+    <script src="./menu.js"></script>
 </body>
 
 </html>

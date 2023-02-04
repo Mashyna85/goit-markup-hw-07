@@ -1,0 +1,42 @@
+@media screen and (min-width:480px) {
+    .container {
+        width: 426px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services-list {
+        flex-wrap: wrap;
+        gap: 72px;
+        justify-content: center;
+    }
+
+    .section-our-services {
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+    }
+
+    .services-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    }
+
+    .services-list-item:nth-child(1)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(2)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(3)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(4)::before {
+        display: none;
+    }
+
+}
