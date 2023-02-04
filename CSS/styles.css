@@ -129,6 +129,10 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.teem-soc-listmobile{
+  display: flex;
+  gap: 56px;
+}
 
 .list {
   list-style: none;
