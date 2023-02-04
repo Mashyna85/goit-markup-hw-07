@@ -21,6 +21,17 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
+        text-align: center;
+    }
+
+    .services-paragraf {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: #434455;
+        width: 369px;
     }
 
     .services-list-item:nth-child(1)::before {

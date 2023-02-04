@@ -4,6 +4,10 @@
         padding-top: 24px;
         padding-bottom: 24px;
     }
+    .services-list{
+        display: flex;
+        gap: 24px;
+    }
 
     .services-title {
         font-weight: 500;
@@ -11,3 +15,20 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
     }
+
+    .services-list-item:nth-child(1)::before {
+        display: block;
+    }
+
+    .services-list-item:nth-child(2)::before {
+        display: block;
+    }
+
+    .services-list-item:nth-child(3)::before {
+        display: block;
+    }
+
+    .services-list-item:nth-child(4)::before {
+        display: block;
+    }
+}
