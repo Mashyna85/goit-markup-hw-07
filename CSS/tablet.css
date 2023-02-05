@@ -27,7 +27,7 @@
         }
 
         .services-list-item {
-            width: calc((100%-60px)/2);
+            width: calc((100% - 60px)/2);
             flex-wrap: wrap;
         }
 
