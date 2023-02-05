@@ -4,31 +4,78 @@
         padding-top: 24px;
         padding-bottom: 24px;
     }
-    .services-list{
-        display: flex;
-        gap: 24px;
+
+    .first-sec {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ .jpg);
     }
 
-    .services-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .first-sec {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ x2.jpg);
+        }
 
-    .services-list-item:nth-child(1)::before {
-        display: block;
-    }
+        .first-sec-text {
+            font-size: 56px;
+            line-height: 1.07;
+        }
 
-    .services-list-item:nth-child(2)::before {
-        display: block;
-    }
+        .section-doing {
+            display: flex;
+        }
 
-    .services-list-item:nth-child(3)::before {
-        display: block;
-    }
+        .services-list-item:nth-child(1)::before {
+            background-image: url(../img/antenna.svg);
+            display: flex;
+        }
 
-    .services-list-item:nth-child(4)::before {
-        display: block;
+        .services-list-item:nth-child(2)::before {
+            background-image: url(../img/clock.svg);
+            display: flex;
+        }
+
+        .services-list-item:nth-child(3)::before {
+            background-image: url(../img/diagram.svg);
+            display: flex;
+        }
+
+        .services-list-item:nth-child(4)::before {
+            background-image: url(../img/astronaut.svg);
+            display: flex;
+        }
+
+        .services-list {
+            display: flex;
+            gap: 24px;
+        }
+
+        .section-our-services {
+            padding-top: 120px;
+            gap: 24px;
+        }
+
+        .services-list-item {
+            width: 264px;
+        }
+
+        .services-title {
+            text-align: left;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            margin-bottom: 8px;
+        }
+
+        .team-list {
+            display: flex;
+            gap: 24px;
+        }
+
+        .services-paragraf {
+            font-weight: 400;
+        }
     }
-}

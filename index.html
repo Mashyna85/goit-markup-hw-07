@@ -21,7 +21,7 @@
 
     <!--Шапка лого та контакти-->
 
-    <header class="header">
+    <!-- <header class="header">
         <div class="container">
             <nav class="header-navigation">
                 <a class="logo link" href="/"><span class="first-part-logo-link">WEB</span>
@@ -34,11 +34,6 @@
                     <li class="header-item"><a class="header-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
-            <button class="mobile-menu-burger" type="button" data-menu-open>
-                <svg class="mobile-mebu-burger_open" width="40" height="40">
-                    <use href="./img/burger.svg#menu_btn"></use>
-                </svg>
-            </button>
             <ul class="header-list-contact list">
                 <li class="header-list-contac-item-one"><a class="header-contact link"
                         href="mailto:info@devstudio.com">info@devstudio.com</a></li>
@@ -47,60 +42,7 @@
                         111-11-11</a></li>
             </ul>
         </div>
-        <div class="mobile-menu is-hidden" data-menu>
-            <div class="container mobile-menu-container">
-                <button class="mobile-menu-close-btn" type="button" data-menu-close>
-                    <svg class="mobile-menu-close-button" width="24" height="24">
-                        <use href="./img/close-button.svg#icon-close-btn"></use>
-                    </svg>
-                </button>
-                <ul class="header-mobilelist list">
-                    <li class="header-mobilelist-item"><a class="header-mobilelink link" href="">Studio</a></li>
-                    <li class="header-mobilelist-item"><a class="header-mobilelink link"
-                            href="./portfolio.html">Portfolio</a></li>
-                    <li class="header-mobilelist-item"><a class="header-mobilelink link" href="">Contacts</a></li>
-                </ul>
-                <ul class="header-mobile-contact list">
-                    <li class="header-mobilelist-contac-item-two"><a class="header-mobilecontact link"
-                            href="tel:+110001111111">+11
-                            (000)
-                            111-11-11</a></li>
-                    <li class="header-mobilelist-contac-item-one link"><a class="header-mobilecontact link"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                </ul>
-                <ul class="teem-soc-listmobile list">
-                    <li class="teem-soc-item">
-                        <a href="https://www.instagram.com/" class="teem-soc-link link">
-                            <svg class="teem-soc-icon" width="20" height="20">
-                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="teem-soc-item">
-                        <a href="https://twitter.com/?lang=uk" class="teem-soc-link link">
-                            <svg class="teem-soc-icon" width="20" height="20">
-                                <use href="./img/symbol-defs.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="teem-soc-item">
-                        <a href="https://www.facebook.com/" class="teem-soc-link link">
-                            <svg class="teem-soc-icon" width="20" height="20">
-                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="teem-soc-item">
-                        <a href="https://www.linkedin.com/" class="teem-soc-link link">
-                            <svg class="teem-soc-icon" width="20" height="20">
-                                <use href="./img/symbol-defs.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
-    </header>
+    </header> -->
 
     <!--Банер з кнопкою-->
 
@@ -170,6 +112,7 @@
         </section>
 
         <!--Інформація про переваги-->
+
         <section class="section-our-services">
             <div class="container">
                 <ul class="services-list list">
@@ -198,8 +141,8 @@
                 </ul>
             </div>
             <!--три фото-->
-            <!-- </section> -->
-            <!-- <section class="section-doing">
+        </section>
+        <section class="section-doing">
             <div class="container">
                 <h2 class="title-section-doing">What are we doing</h2>
                 <ul class="doing-list list">
@@ -211,16 +154,18 @@
                                 alt="hand with phone"></a></li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
-            <!--Команда-->
+        <!--Команда-->
 
-            <!-- <section class="section-team">
+        <section class="section-team">
             <div class="container">
                 <h2 class="title-section-team">Our Team</h2>
                 <ul class="team-list list">
                     <li class="team-member">
-                        <img class="team-member-img" src="./img/Mark.jpg" alt="portrait Mark" width=264>
+                        <img class="team-member-img" src="./img/Mark.jpg" alt="portrait Mark" width=264 srcset="
+                            ./img/Mark.jpg 1x, 
+                            ./img/imgmobile/Markmobile@2x.jpg 2x">
                         <h3 class="team-title">Mark Guerrero</h3>
                         <p class="team-pozition">Product Designer</p>
                         <div>
@@ -257,8 +202,10 @@
                         </div>
                     </li>
                     <li class="team-member">
-                        <img class="team-member-img" src="./img/Tom.jpg" alt="portrait Tom" width=264>
-                        <h3 class="team-title">Tom Ford</h3>
+                        <img class="team-member-img" src="./img/Tom.jpg" alt="portrait Tom" width=264 srcset="
+                            ./img/Tom.jpg 1x, 
+                            ./img/imgmobile/Tommobile@2x.jpg 2x>
+                        <h3 class=" team-title">Tom Ford</h3>
                         <p class="team-pozition">Frontend Developer</p>
                         <div>
                             <ul class="teem-soc-list list">
@@ -294,7 +241,9 @@
                         </div>
                     </li>
                     <li class="team-member">
-                        <img class="team-member-img" src="./img/Camila.jpg" alt="portrait Camila" width=264>
+                        <img class="team-member-img" src="./img/Camila.jpg" alt="portrait Camila" width=264 srcset="
+                            ./img/Camila.jpg 1x, 
+                            ./img/imgmobile/Cmilamobile@2x.jpg 2x">
                         <h3 class="team-title">Camila Garcia</h3>
                         <p class="team-pozition">Marketing</p>
                         <div>
@@ -331,7 +280,9 @@
                         </div>
                     </li>
                     <li class="team-member">
-                        <img class="team-member-img" src="./img/Daniel.jpg" alt="portrait Mark" width=264>
+                        <img class="team-member-img" src="./img/Daniel.jpg" alt="portrait Mark" width=264 srcset="
+                            ./img/Daniel.jpg 1x, 
+                            ./img/imgmobile/Danielmobile@2x.jpg 2x">
                         <h3 class="team-title">Daniel Wilson</h3>
                         <p class="team-pozition">UI Designer</p>
                         <div>
@@ -369,11 +320,11 @@
                     </li>
             </div>
             </ul>
-        </section> -->
+        </section>
 
-            <!--Клієнти-->
+        <!--Клієнти-->
 
-            <!-- <section class="section-customers">
+        <section class="section-customers">
             <div class="container">
                 <h2 class="customers-title">Customers</h2>
                 <ul class="costomers-list list">
@@ -421,12 +372,12 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <!--Підвал-->
 
-    <!-- <footer class=" footer">
+    <footer class=" footer">
         <div class="container">
             <div class="footer-box">
                 <div class="footer-logo-text">
@@ -482,9 +433,9 @@
                 </div>
             </div>
         </div>
-    </footer> -->
-    <script src="./modal.js"></script>
+    </footer>
     <script src="./menu.js"></script>
+    <script src="./modal.js"></script>
 </body>
 
 </html>
