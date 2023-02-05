@@ -705,8 +705,8 @@ ul {
   /* -- Клієнти -- */
 
   .section-customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 
   }
 
@@ -724,6 +724,7 @@ ul {
 
   .costomers-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
   }
