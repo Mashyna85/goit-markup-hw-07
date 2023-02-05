@@ -51,3 +51,28 @@
     }
 
 }
+
+@media screen and (max-width:480px) {
+
+    .services-list-item:nth-child(1)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(2)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(3)::before {
+        display: none;
+    }
+
+    .services-list-item:nth-child(4)::before {
+        display: none;
+    }
+
+    .services-list {
+        flex-wrap: wrap;
+        gap: 72px;
+        justify-content: center;
+    }
+}

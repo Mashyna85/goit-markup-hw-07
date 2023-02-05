@@ -132,6 +132,7 @@ ul {
 .teem-soc-listmobile{
   display: flex;
   gap: 56px;
+  justify-content: center;
 }
 
 .list {
