@@ -633,7 +633,11 @@ ul {
   }
 
   .team-list {
-    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
+    margin-top: 72px;
   }
 
   .title-section-team {
