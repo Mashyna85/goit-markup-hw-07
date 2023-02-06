@@ -18,13 +18,6 @@ ul {
   padding-left: 0;
 }
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  /* outline: 1px solid red; */
-  margin: 0 auto;
-}
-
 .list {
   list-style: none;
 }
@@ -32,6 +25,114 @@ ul {
 .link {
   text-decoration: none;
 }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 1px solid red; */
+  margin: 0 auto;
+}
+
+.mobile-menu-burger {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+  fill: #2E2F42;
+  stroke: #2E2F42;
+}
+
+.mobile-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+
+}
+
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.mobile-menu-container {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.mobile-menu-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(46, 47, 66, 0.1);
+  top: 40px;
+  right: 40px;
+  background-color: #E7E9FC;
+  width: 24px;
+  height: 24px;
+  transition-property: border, background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-mobilelist {
+  margin-top: 40px;
+  margin-bottom: 214px;
+}
+
+.header-mobilelist-item {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2E2F42;
+  margin-bottom: 40px;
+}
+
+.header-mobilelist-contac-item-two {
+  width: 100%;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #4D5AE5;
+  margin-bottom: 40px;
+}
+
+.header-mobilelist-contac-item-one {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: rgb(46, 47, 66);
+  margin-bottom: 48px;
+}
+.teem-soc-listmobile{
+  display: flex;
+  justify-content: center;
+  gap: 56px
+  ;
+}
+
 
 .header {
   padding-top: 24px;
@@ -80,7 +181,7 @@ ul {
 }
 
 .header-list {
-  display: flex;
+  display: none;
 }
 
 .header-item {
@@ -136,13 +237,7 @@ ul {
 
 
 .header-list-contact {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.44;
-  letter-spacing: 0.02em;
-  color: #434455;
-  display: flex;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: none;
 }
 
 .header-list-contact:hover,
