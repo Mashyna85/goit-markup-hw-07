@@ -28,4 +28,16 @@
         text-transform: capitalize;
         color: #2E2F42;
     }
+
+    .footer-logo-text {
+        margin-bottom: 72px;
+    }
+
+    .tooter-socials {
+        margin-bottom: 72px;
+    }
+
+    .input-footer {
+        width: 460px;
+    }
 }
