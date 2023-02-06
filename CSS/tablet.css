@@ -68,7 +68,24 @@
         width: 264px;
     }
 
-    .footer-wrap {
+    .footer-box {
+        gap: 24px;
+    }
+
+    .footer-logo {
         justify-content: flex-start;
+    }
+
+    .footer-title {
+       text-align: left;
+    }
+
+    .footer-socials {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-subscraible{
+        text-align: left;
+        margin-left: 1px;
     }
 }
