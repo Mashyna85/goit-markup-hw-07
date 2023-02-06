@@ -764,17 +764,27 @@ ul {
 
   .footer {
     background-color: #2E2F42;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
   }
 
   .footer-logo {
     display: flex;
+    justify-content: center;
     margin-bottom: 16px;
   }
 
   .footer-box {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .footer-text {
@@ -814,7 +824,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-    padding-right: 269px;
   }
 
   .footer-title {
@@ -837,6 +846,11 @@ ul {
     height: 40px;
   }
 
+  .tooter-socials {
+    display: block;
+    text-align: center;
+  }
+
   .footer-soc-link {
     width: 100%;
     height: 100%;
@@ -855,7 +869,7 @@ ul {
 
   .footer-subscraible {
     margin-left: auto;
-
+    text-align: center;
   }
 
   .footer-subscraible-title {
@@ -871,7 +885,10 @@ ul {
 
   .footer-subscraible-form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 24px;
+
   }
 
   .input-footer {

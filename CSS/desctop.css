@@ -1,88 +1,102 @@
     @media screen and (min-width:1158px) {
-    .container {
-        width: 1158px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
+        .container {
+            width: 1158px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
 
-    .first-sec {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ .jpg);
-    }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
         .first-sec {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ x2.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ .jpg);
         }
 
-        .first-sec-text {
-            font-size: 56px;
-            line-height: 1.07;
-        }
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .first-sec {
+                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ x2.jpg);
+            }
 
-        .section-doing {
-            display: flex;
-        }
+            .first-sec-text {
+                font-size: 56px;
+                line-height: 1.07;
+            }
 
-        .services-list-item:nth-child(1)::before {
-            background-image: url(../img/antenna.svg);
-            display: flex;
-        }
+            .section-doing {
+                display: flex;
+            }
 
-        .services-list-item:nth-child(2)::before {
-            background-image: url(../img/clock.svg);
-            display: flex;
-        }
+            .services-list-item:nth-child(1)::before {
+                background-image: url(../img/antenna.svg);
+                display: flex;
+            }
 
-        .services-list-item:nth-child(3)::before {
-            background-image: url(../img/diagram.svg);
-            display: flex;
-        }
+            .services-list-item:nth-child(2)::before {
+                background-image: url(../img/clock.svg);
+                display: flex;
+            }
 
-        .services-list-item:nth-child(4)::before {
-            background-image: url(../img/astronaut.svg);
-            display: flex;
-        }
+            .services-list-item:nth-child(3)::before {
+                background-image: url(../img/diagram.svg);
+                display: flex;
+            }
 
-        .services-list {
-            display: flex;
-            gap: 24px;
-        }
+            .services-list-item:nth-child(4)::before {
+                background-image: url(../img/astronaut.svg);
+                display: flex;
+            }
 
-        .section-our-services {
-            padding-top: 120px;
-            gap: 24px;
-        }
+            .services-list {
+                display: flex;
+                gap: 24px;
+            }
 
-        .services-list-item {
-            width: 264px;
-        }
+            .section-our-services {
+                padding-top: 120px;
+                gap: 24px;
+            }
 
-        .services-title {
-            text-align: left;
-            justify-content: center;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 1.2;
-            letter-spacing: 0.02em;
-            color: #2e2f42;
-            margin-bottom: 8px;
-        }
+            .services-list-item {
+                width: 264px;
+            }
 
-        .team-list {
-            display: flex;
-            gap: 24px;
-        }
+            .services-title {
+                text-align: left;
+                justify-content: center;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+                letter-spacing: 0.02em;
+                color: #2e2f42;
+                margin-bottom: 8px;
+            }
 
-        .services-paragraf {
-            width: 100%;
-            font-weight: 400;
-        }
+            .team-list {
+                display: flex;
+                gap: 24px;
+            }
 
-        .section-customers {
-            padding-top: 120px;
-            padding-bottom: 120px;
+            .services-paragraf {
+                width: 100%;
+                font-weight: 400;
+            }
 
+            .section-customers {
+                padding-top: 120px;
+                padding-bottom: 120px;
+            }
+
+            .footer {
+                padding-top: 100px;
+                padding-bottom: 100px;
+            }
+
+            footer-box {
+                display: flex;
+            }
+
+            .footer-second-part-logo-link {
+                padding-right: 269px;
+            }
+            
         }
-        }}
+    }
