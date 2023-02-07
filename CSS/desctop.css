@@ -7,7 +7,7 @@
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ .jpg);
         }
 
-        
+
 
 
         .header-list {
@@ -35,91 +35,92 @@
             .first-sec {
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ x2.jpg);
             }
-
-            .first-sec-text {
-                font-size: 56px;
-                line-height: 1.07;
-            }
-
-            .section-doing {
-                display: flex;
-            }
-
-            .services-list-item:nth-child(1)::before {
-                background-image: url(../img/antenna.svg);
-                display: flex;
-            }
-
-            .services-list-item:nth-child(2)::before {
-                background-image: url(../img/clock.svg);
-                display: flex;
-            }
-
-            .services-list-item:nth-child(3)::before {
-                background-image: url(../img/diagram.svg);
-                display: flex;
-            }
-
-            .services-list-item:nth-child(4)::before {
-                background-image: url(../img/astronaut.svg);
-                display: flex;
-            }
-
-            .services-list {
-                display: flex;
-                gap: 24px;
-            }
-
-            .section-our-services {
-                padding-top: 120px;
-                gap: 24px;
-            }
-
-            .services-list-item {
-                width: 264px;
-            }
-
-            .services-title {
-                text-align: left;
-                justify-content: center;
-                font-weight: 500;
-                font-size: 20px;
-                line-height: 1.2;
-                letter-spacing: 0.02em;
-                color: #2e2f42;
-                margin-bottom: 8px;
-            }
-
-            .team-list {
-                display: flex;
-                gap: 24px;
-            }
-
-            .services-paragraf {
-                width: 100%;
-                font-weight: 400;
-            }
-
-            .section-customers {
-                padding-top: 120px;
-                padding-bottom: 120px;
-            }
-
-            .footer {
-                padding-top: 100px;
-                padding-bottom: 100px;
-            }
-
-            footer-box {
-                display: flex;
-            }
-
-            .footer-second-part-logo-link {
-                padding-right: 269px;
-            }
-
-            .input-footer {
-                width: 264px;
-            }
         }
+
+        .first-sec-text {
+            font-size: 56px;
+            line-height: 1.07;
+        }
+
+        .section-doing {
+            display: flex;
+        }
+
+        .services-list-item:nth-child(1)::before {
+            background-image: url(../img/antenna.svg);
+            display: flex;
+        }
+
+        .services-list-item:nth-child(2)::before {
+            background-image: url(../img/clock.svg);
+            display: flex;
+        }
+
+        .services-list-item:nth-child(3)::before {
+            background-image: url(../img/diagram.svg);
+            display: flex;
+        }
+
+        .services-list-item:nth-child(4)::before {
+            background-image: url(../img/astronaut.svg);
+            display: flex;
+        }
+
+        .services-list {
+            display: flex;
+            gap: 24px;
+        }
+
+        .section-our-services {
+            padding-top: 120px;
+            gap: 24px;
+        }
+
+        .services-list-item {
+            width: 264px;
+        }
+
+        .services-title {
+            text-align: left;
+            justify-content: center;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            margin-bottom: 8px;
+        }
+
+        .team-list {
+            display: flex;
+            gap: 24px;
+        }
+
+        .services-paragraf {
+            width: 100%;
+            font-weight: 400;
+        }
+
+        .section-customers {
+            padding-top: 120px;
+            padding-bottom: 120px;
+        }
+
+        .footer {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+
+        footer-box {
+            display: flex;
+        }
+
+        .footer-second-part-logo-link {
+            padding-right: 269px;
+        }
+
+        .input-footer {
+            width: 264px;
+        }
+    }
     }
