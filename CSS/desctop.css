@@ -1,13 +1,14 @@
     @media screen and (min-width:1158px) {
         .container {
             width: 1158px;
-            padding-top: 24px;
-            padding-bottom: 24px;
         }
 
         .first-sec {
             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../img/people-office\ .jpg);
         }
+
+        
+
 
         .header-list {
             display: flex;
